@@ -69,3 +69,6 @@ main ul li .card {
 main ul li .card {
   float:left;
 }
+main ul img {
+  margin: 10px;
+}
