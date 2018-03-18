@@ -2,6 +2,7 @@ body, html {
   margin:0;
   padding:0;
   height: 100%;
+  font-family: sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -10,8 +11,8 @@ body, html {
 header, footer {
 background-color: #444;
 color:white;
-height:260;
-width: 100%;
+/* height:260; */
+/* width: 100%; */
 }
 
 nav ul {
@@ -45,40 +46,40 @@ main {
   width: 960px;
 }
 
-.card header {
-  background:white;
-  height: 2em;
-  width: auto;
-}
 
-div.card {
-  padding:0;
-}
-
-main ul .card {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-}
-main ul li .card {
-  display: inline-block;
-  width: 300;
-  /* padding: 0 3em; */
-  /* line-height: 70px; */
-}
-
+/* puts 3 boxes inline */
 main ul li .card {
   float:left;
 }
+
 main ul img {
   margin: 10px;
 }
 
-main div .card2 img {
-  float:left;
+main #Featured {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+main .twoCard img {
+  margin-right: 10px;
+}
+
+main .twoCard p {
+  font-style: italic;
+  overflow: scroll;
+  height:340px;
+}
+
+main .twoCard #callToAction {
+  float: left;
+  background-color: black;
+  color:white;
+  padding:10px;
 }
 
 footer {
   height:112px;
+  margin-top: 70px;
 }
