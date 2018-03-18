@@ -53,17 +53,19 @@ div.card {
   padding:0;
 }
 
-div .card ul {
+main ul .card {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
-div .card ul li {
+main ul li .card {
   display: inline-block;
+  width: 300;
   /* padding: 0 3em; */
   /* line-height: 70px; */
 }
 
-div .card ul li {
+main ul li .card {
   float:left;
 }
