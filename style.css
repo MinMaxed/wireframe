@@ -1,0 +1,69 @@
+body, html {
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: gray;
+height:260;
+width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 3em;
+  line-height: 70px;
+}
+
+nav {
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+nav img {
+  float:left;
+}
+
+nav ul {
+  float:left;
+}
+
+main {
+  margin: 30px auto;
+  width: 960px;
+}
+
+.card header {
+  background:white;
+  height: 2em;
+  width: auto;
+}
+
+div.card {
+  padding:0;
+}
+
+div .card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div .card ul li {
+  display: inline-block;
+  /* padding: 0 3em; */
+  /* line-height: 70px; */
+}
+
+div .card ul li {
+  float:left;
+}
