@@ -62,7 +62,13 @@ main #Featured {
   font-size: 20px;
   margin-bottom: 5px;
 }
+
+main div .twoCard {
+  float:right;
+}
+
 main .twoCard img {
+  float: left;
   margin-right: 10px;
 }
 
