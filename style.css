@@ -8,6 +8,10 @@ body, html {
   font-family: sans-serif;
 }
 
+#logo {
+  margin-right: 50px;
+}
+
 body {
   position: relative;
 }
@@ -27,7 +31,7 @@ nav ul {
 
 
 nav {
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
   padding: 20px 150px;
   overflow: hidden;
 }
@@ -43,6 +47,8 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 30px;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 main {
   margin: 30px auto;
@@ -86,7 +92,7 @@ main #Featured {
   background-color: white;
   color: black;
   font-size: 20px;
-  /* margin-bottom: 5px; */
+  margin-bottom: 10px;
 }
 
  .twoCard {
@@ -109,7 +115,14 @@ main .twoCard #callToAction {
   float: left;
   background-color: black;
   color:white;
-  padding:10px;
+  padding:5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: none;
 }
 
 footer {
@@ -119,5 +132,5 @@ footer {
   width: 100%;
   bottom:0;
   float: right;
-  margin-top: 70px;
+  margin-top: 30px;
 }
