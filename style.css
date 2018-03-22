@@ -77,7 +77,7 @@ main ul img {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 #rightImg {
@@ -86,7 +86,6 @@ main ul img {
   margin-top: 10px;
   margin-bottom: 0;
 }
-
 
 main #Featured {
   background-color: white;
@@ -108,13 +107,14 @@ main .twoCard img {
 main .twoCard p {
   font-style: italic;
   overflow: auto;
-  height:340px;
+  height:330px;
 }
 
 main .twoCard #callToAction {
   float: left;
   background-color: black;
   color:white;
+  margin-top: 10px;
   padding:5px;
 }
 
